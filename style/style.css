@@ -1,0 +1,95 @@
+/*    BODY       */
+body div .container{
+   
+    
+    background-image: url('../img/Bkg_Site.jpg');
+    background-repeat: repeat;
+    background-position: auto;
+    width: 1024px;
+    height: 800px;
+       
+}
+
+body .img-background{
+    opacity: 0.3;
+}
+
+
+/*         HEADER/STYLE MENU          */
+header{
+    background-color: rgba(255,165,0, 0.8);
+    border-bottom: 2px solid black;
+}
+
+header .cabecalho{
+    position: relative;
+    top: 15px;
+}
+
+
+
+
+
+nav{
+    margin-left: 50%;
+    padding-top: 5px;
+}
+
+nav .menu-nav{
+    width: 90%;
+    align-items: center;
+    position: absolute;
+}
+
+nav .div-menu{
+    position: relative;
+    top: 25px;
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: static;
+}
+
+nav a:hover{
+    background-color: rgba(0,0,0, 0.2);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;  
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*      CONFIGURAÇÃO DIV LOGO    */
+nav .logo-volit{
+    position: relative;
+    right: 400px;
+    bottom: 18px;
+    width: 100px;
+    height: 50px;
+}
+
+nav .logo-volit img{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+}
+
+
+
+/*      ESTILO DA PÁGINA SOBRE      */
+
