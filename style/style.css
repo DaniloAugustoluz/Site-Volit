@@ -1,16 +1,18 @@
 /*    BODY       */
-body div .container{
-   
+main {
     
     background-image: url('../img/Bkg_Site.jpg');
     background-repeat: repeat;
     background-position: auto;
-    width: 1024px;
+    position: absolute;
+    width: 1335px;
     height: 800px;
        
 }
 
 body .img-background{
+    width: 1335px;
+    height: 800px;
     opacity: 0.3;
 }
 
@@ -19,15 +21,13 @@ body .img-background{
 header{
     background-color: rgba(255,165,0, 0.8);
     border-bottom: 2px solid black;
+    
 }
 
 header .cabecalho{
-    position: relative;
+    position: absolute;
     top: 15px;
 }
-
-
-
 
 
 nav{
@@ -36,16 +36,18 @@ nav{
 }
 
 nav .menu-nav{
-    width: 90%;
+    width: 1024px;
+    height: 800px;
     align-items: center;
     position: absolute;
 }
 
 nav .div-menu{
     position: relative;
-    top: 25px;
+    top: 23px;
+    right: 150px;
     border: 1px solid black;
-    width: 200px;
+    width: 300px;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -56,8 +58,8 @@ nav a{
     font-style: italic;
     font-size: 12px;
     font-weight: bold;
-    color: white;
     padding: 8px;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     position: static;
@@ -77,8 +79,8 @@ nav a:hover{
 /*      CONFIGURAÇÃO DIV LOGO    */
 nav .logo-volit{
     position: relative;
-    right: 400px;
-    bottom: 18px;
+    right: 350px;
+    bottom: 23px;
     width: 100px;
     height: 50px;
 }
@@ -92,4 +94,30 @@ nav .logo-volit img{
 
 
 /*      ESTILO DA PÁGINA SOBRE      */
+main .div-article {
+    position: relative;
+    background-color: darkgray;
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 250px;
+    bottom: 630px;
+    left: 80px;
+}
 
+main .div-article p{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main .div-article header{
+    background-color: darkgray;
+    font-style: italic;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
