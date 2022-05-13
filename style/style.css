@@ -10,13 +10,9 @@ main {
        
 }
 
-body .img-background{
-    width: 1335px;
-    height: 800px;
-    opacity: 0.3;
+.img-background{
+    opacity: 0.2;
 }
-
-
 /*         HEADER/STYLE MENU          */
 header{
     background-color: rgba(255,165,0, 0.8);
@@ -121,3 +117,12 @@ main .div-article header{
     padding-left: 10px;
     text-transform: uppercase;
 }
+
+
+/*      FOOTER       */
+footer .footer-content{
+    position: absolute;
+    background-color: rgba(255,165,0, 0.8);
+    border-top: 2px solid black;
+}
+
